@@ -1,0 +1,51 @@
+#title {background-color: rgb(147, 194, 171);}
+
+.container-fluid {padding: 3% 15%;}
+
+h1 {
+  text-align: center;
+  font-family: 'Alata';
+  font-weight: medium;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h2 {color: black; font-family: 'Playfair Display'; font-weight: bold;}
+
+h3 {font-family: 'Playfair Display'; font-size:1.5; font-weight: bold;}
+/* Navigation bar */
+.navbar {padding: 0 0 5rem;}
+.navbar-brand {font-family: 'Alata'; font-size: 2.8rem; font-weight: bold;}
+.nav-item {padding: 0 18px;}
+.navbar-item {font-family: 'Alata'}
+.navbar-link {font-family: 'Playfair Display'; font-size: 2rem;}
+
+p{color: black}
+
+
+/* Intro Image */
+.introrow {align-content: center; width: 50%; margin-left: auto; margin-right: auto; display: block; text-align: center;}
+
+/* Resume */
+#resume {padding: 5% 10% 5% 10%; background-color: #fff; position: relative;}
+.resume-header {text-align: center;}
+
+
+/* Projects Section */
+#projects {padding:100px; text-align: center;}
+
+.projects-header {color: #000}
+.projects-column {padding: 3% 2%;}
+
+/* Contact Me */
+#contact {background-color: rgb(120, 164, 143); color:#fff; padding: 7% 15%; text-align: center;}
+
+.contact-heading {font-family: 'Playfair Display'; font-weight: bold; font-size: 2rem; line-height: 1.5; }
+
+/* Footer*/
+#footer {padding: 7% 15%; text-align: center;}
+
+
+/* Media Query */
+@media (max-width: 1028px){ 
+  #title {text-align: center;}; }
